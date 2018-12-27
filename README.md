@@ -18,4 +18,4 @@
 
 #### launch hello-world app
 
-FLASK_APP=src/hello.py flask run
+FLASK_APP=flaskr/hello.py flask run
