@@ -15,13 +15,6 @@
 
     `pip install -r requirements_dev.txt`
 
-- copy development configurations
-
-    ```
-    mkdir -p instance
-    cp flaskr/config_dev.py instance/config.py
-    ```
-
 
 #### initializing database
 
