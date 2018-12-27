@@ -14,3 +14,8 @@
 - install requirements
 
     `pip install -r requirements.txt`
+
+
+#### launch hello-world app
+
+FLASK_APP=src/hello.py flask run
