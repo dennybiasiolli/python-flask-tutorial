@@ -15,7 +15,18 @@
 
     `pip install -r requirements.txt`
 
+- copy development configurations
 
-#### launch hello-world app
+    ```
+    mkdir -p instance
+    cp flaskr/config_dev.py instance/config.py
+    ```
 
-FLASK_APP=flaskr/hello.py flask run
+
+#### launch app
+
+```
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+flask run
+```
